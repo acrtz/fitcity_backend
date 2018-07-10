@@ -1,0 +1,5 @@
+git init 
+heroku create <app name>
+heroku addons:create heroku-postgresql:hobby-dev
+heroku pg:psql -a <app name> < <file name> //create tables
+heroku pg:psql -a <app name> < <file name> //insert data
